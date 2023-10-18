@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gabarito', sans-serif;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    border: 1px rgb(15, 15, 39);
+    border-radius: 5px;
+    margin: 10rem auto;
+    text-align: center;
+    background: linear-gradient(rgba(190, 190, 219, 0.582), rgba(17, 17, 17, 0.534)),
+    url('../images/1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container > input, .container button {
+    display: block;
+    margin: 1rem auto;
+}
+
+.container button {
+    width: 5rem;
+    padding: 0.3rem;
+    color: aliceblue;
+    background-color: rgb(10, 0, 46);
+}
+
+.container h3 {
+    margin: 2rem;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+.container p {
+    color: aliceblue;
+    font-size: 1.5rem;
+}
